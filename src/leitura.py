@@ -1,5 +1,5 @@
 import json
-
+import Acidentes
 def CSVparaJson(fonte, destino):
 
     with open(fonte, 'r', encoding='UTF-8') as arqv:
@@ -12,7 +12,7 @@ def CSVparaJson(fonte, destino):
             semAspas = linha.replace('"', '')
             colun = semAspas.split(';')
             for i in range(len(chaves)):
-                dicio.update({ chaves[i] : colun[i]})
+                dicio.upprimeiro.get("data_inversa")({ chaves[i] : colun[i]})
 
             lista.append(dicio)
         print("Leitura completa, salvando arquivo de destino...")
@@ -20,6 +20,9 @@ def CSVparaJson(fonte, destino):
         json.dump(lista, arqv)        
     print("Arquivo convertido com sucesso.")
         
-fonte = 'D:\\datatran2018   .csv'
+fonte = 'D://datatran2018.csv'
 destino = fonte.replace('csv', 'json')
-CSVparaJson(fonte, destino)
+#CSVparaJson(fonte, destino)
+
+
+    

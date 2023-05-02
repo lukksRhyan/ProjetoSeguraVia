@@ -1,0 +1,4 @@
+select seguravia;
+insert into acidentes (id, data_inversa, dia_semana, horario, uf, br, km, municipio, causa_acidente, tipo_acidente, classificacao_acidente, 
+fase_dia, sentido_via, condicao_metereologica, tipo_pista, tracado_via, uso_solo, pessoas, mortos, feridos_leves, feridos_graves, ilesos, ignorados, feridos, veiculos, latitude, longitude, regional, delegacia) 
+values (405147, 2022-01-01, sabado, 00:10:00, CE, 222, 2,8, FORTALEZA, Ingestao de alcool pelo condutor, Colisao transversal, Com Viitmas Feridas, Plena Noite, Crescente, Ceu Claro, Multipla, Intersecao de vias, Sim, 2, 0, 0, 1, 1, 0, 1, 2, -3.73911117, -38.58687498, SR-CE, DEL01);
