@@ -20,8 +20,8 @@ def CSVparaJson(fonte, destino):
         json.dump(lista, arqv)        
     print("Arquivo convertido com sucesso.")
         
-fonte = 'D://datatran2018.csv'
-destino = fonte.replace('csv', 'json')
+#fonte = 'datatran2018.csv'
+#destino = fonte.replace('csv', 'json')
 #CSVparaJson(fonte, destino)
 
 
